@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 6%;
+    padding-left: 8%;
+}
+.container h1 {
+    display: flex;
+    align-items: center;
+}
+
+.container button {
+    padding: 12px;
+    margin-top: 1rem;
+    border-radius: 25px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-left: 1.5rem;
+}
+
+.text {
+    width: 100%;
+    max-width: 500px;
+    background-color:whitesmoke;
+    min-height: 150px;
+    border-radius: 5px;
+    margin: 1.5rem;
+    position: relative;
+}
+.text img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 25px;
+}
